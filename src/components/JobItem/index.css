@@ -1,0 +1,97 @@
+.jobitem-card {
+  padding: 30px;
+  background-color: #202020;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+.sm-nav-link {
+  text-decoration: none;
+}
+.company-name {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.company-logo {
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.company-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffffff;
+}
+.company-img {
+  width: 70px;
+  height: 70px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fbbf24;
+  margin: 0px;
+  font-size: 18px;
+}
+.rating {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 600px;
+  margin-left: 10px;
+}
+.job-title {
+  font-size: 23px;
+  margin: 0px;
+}
+.detail-card {
+  display: flex;
+  color: #ffffff;
+  margin: 0px;
+}
+.details-one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: auto;
+}
+.details-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 1;
+  margin-right: 20px;
+}
+.detail-title {
+  font-size: 15px;
+  margin: 10px;
+}
+.line {
+  color: blueviolet;
+  background-color: blueviolet;
+}
+.heading-desc {
+  font-size: 18px;
+  color: #ffffff;
+}
+.describtion {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.detail-title-salary {
+  font-size: 25px;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .jobitem-card {
+    padding: 30px;
+    background-color: #202020;
+    border-radius: 20px;
+    margin: 10px 0px;
+  }
+}

@@ -1,0 +1,98 @@
+.navBar {
+  display: flex;
+  height: 80px;
+  background-color: #272727;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  justify-content: space-between;
+}
+.logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  height: 50px;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 130px;
+  background-color: blueviolet;
+  height: 40px;
+  color: aliceblue;
+}
+.menuOptions {
+  color: aliceblue;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.menu-link {
+  margin-left: 25px;
+  font-size: 25px;
+}
+.nav-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.sm-navbar {
+  background-color: #272727;
+  height: 80px;
+  padding: 10px;
+}
+.icon-container {
+  margin: 0px;
+  padding: 0px;
+}
+.sm-navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sm-logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.sm-logo {
+  height: 40px;
+}
+.sm-menu-options {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-left: auto;
+}
+.sm-menu-link {
+  color: aliceblue;
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.icon-container {
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sm-navbar {
+    display: none;
+  }
+}

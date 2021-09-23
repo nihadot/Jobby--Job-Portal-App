@@ -1,0 +1,82 @@
+.job-detials {
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+.desc-vist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.linkout {
+  color: blueviolet;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+.job-detials-skil {
+  padding: 10px;
+}
+.external-icon {
+  margin-left: 9px;
+}
+.job-detials-skill {
+  color: aliceblue;
+}
+.skill-head {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.skill-contianer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-data {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  margin: 10px;
+}
+.skill-image {
+  width: 50px;
+}
+.skill-nama {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.content-div-jobdetail {
+  display: flex;
+}
+.desc-life-head {
+  flex: 2;
+}
+.desc-things {
+  font-size: 18px;
+}
+.life-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+}
+.products-loader-container {
+  background-color: black;
+  min-height: 100vh;
+}
+.similarJobs {
+  display: flex;
+}
+.job-details-similar {
+  background-color: rgb(12, 12, 12);
+  padding: 10px;
+  width: 30%;
+  border-radius: 20px;
+}
+.heading-desc-similar {
+  font-size: 18px;
+  color: aliceblue;
+}
+.skill-head-similar {
+  color: aliceblue;
+}
